@@ -6,6 +6,8 @@ using UnityEngine;
 public class PINK : MonoBehaviour
 {
     public float s = 25;
+    public int ponits=0;
+    private int points;
 
     void Start()
     {
@@ -16,6 +18,13 @@ public class PINK : MonoBehaviour
     {
         return (pinkLoc.y - pinkPos.y) / racketHeight;
     }
+    void OnCollisionEnter2D2(Collision2D box) {
+        if (box.gameObject.name == "Player" || box.gameObject.name == "PlayerLEFT") {
+            points++;
+        }
+        System.Console.WriteLine(ponits);
+    }
+
 
     void OnCollisionEnter2D(Collision2D box)
     {
@@ -31,5 +40,6 @@ public class PINK : MonoBehaviour
             Vector2 pink2 = new Vector2(1, y).normalized;
             GetComponent<Rigidbody2D>().velocity = pink2 * s;
         }
+
     }
 }
