@@ -9,6 +9,5 @@ public class Coll : MonoBehaviour
     {
         if (Input.GetKey("escape"))
             Application.Quit();
-
     }
 }

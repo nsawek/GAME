@@ -11,3 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Start.unity
     guid: cbb6992378cf5874ebd7d4712253f12c
+  - enabled: 1
+    path: Assets/KONIEC.unity
+    guid: c5bc7f473dad62a459441b94824b9a0b
+  m_configObjects: {}
