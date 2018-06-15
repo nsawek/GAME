@@ -231,6 +231,7 @@
     <Compile Include="Assets\MS.cs" />
     <Compile Include="Assets\PINK.cs" />
     <Compile Include="Assets\POINTS.cs" />
+    <Compile Include="Assets\SCORETEXT.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
