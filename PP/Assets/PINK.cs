@@ -2,7 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/// <summary>
+/// Zachowanie paletek, ich prędkość i reakcja na kolziję z piłką. 
+/// </summary>
 public class PINK : MonoBehaviour
 {
     public float s = 25;

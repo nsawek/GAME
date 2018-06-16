@@ -5,7 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class COINS : MonoBehaviour
 {
-
+    /// <summary>
+    /// funckja dodaje nam punkty gdy piłka przejdzie przez niewidzialne objekty przy paletkach, jak i odejmuje gdy jej nie dobijemy, dodatkowo wyświetla ekran śmierci gdy mamy mniej niż 0 punktów. 
+    /// </summary>
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag == "Player")
